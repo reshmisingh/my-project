@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_contents",
+  "info": {
+    "singularName": "header-content",
+    "pluralName": "header-contents",
+    "displayName": "Header_content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

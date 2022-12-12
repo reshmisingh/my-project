@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "platform_offers",
+  "info": {
+    "singularName": "platform-offer",
+    "pluralName": "platform-offers",
+    "displayName": "Platform_offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "offer_Name": {
+      "type": "string"
+    },
+    "offer_title": {
+      "type": "string"
+    },
+    "offer_description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

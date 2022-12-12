@@ -1,17 +1,20 @@
 {
   "kind": "collectionType",
-  "collectionName": "aboutuses",
+  "collectionName": "faqs",
   "info": {
-    "singularName": "aboutus",
-    "pluralName": "aboutuses",
-    "displayName": "aboutus"
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "Faq"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "aboutus": {
+    "Question": {
+      "type": "string"
+    },
+    "Answer": {
       "type": "richtext"
     }
   }
