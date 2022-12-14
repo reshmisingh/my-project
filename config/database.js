@@ -12,16 +12,15 @@
 
     // strapi-api/config/database.js
     module.exports = ({ env }) => ({
-      defaultConnection: "default",
       connection: {
         client: "postgres",
         connection: {
-          host: env("DATABASE_HOST", "localhost"),
+          host: env("DATABASE_HOST", "database-1.ccuiw3qta9zh.ap-south-1.rds.amazonaws.com"),
           port: env.int("DATABASE_PORT", 5432),
-          database: env("DATABASE_NAME", "myProject"),
-          user: env("DATABASE_USERNAME", "postgres"),
-          password: env("DATABASE_PASSWORD", "event"),
-          schema: env("DATABASE_SCHEMA", "public")
+          database: env("DATABASE_NAME", "thelemia"),
+          user: env("DATABASE_USERNAME", "thelemia"),
+          password: env("DATABASE_PASSWORD", "Thelemia123"),
         },
-      }
+        useNullAsDefault: true,
+      },
     });
